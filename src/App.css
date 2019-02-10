@@ -1,32 +1,41 @@
 .App {
-  text-align: center;
+    margin: 0 auto;
+    width:100%;
+    padding: 2px auto;
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.Meal {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    border-radius: 20%;
+    width:100%;
+    background-color: #9acd32;
 }
-
-.App-link {
-  color: #61dafb;
+.MealForm {
+    display: inline-flex;
+    position: absolute;
+    width:25%;
+    right: 60%;
+    top: 0%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3.MealForm{
+    color: chocolate;
+}
+img.del {
+  float: right;
+  height: 20px;
+  top: 10%;
+}
+.OrderForm {
+    display: inline-block;
+    position: absolute;
+    padding: 10px ;
+    right: 86%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    top: 0%;
+    text-align: right;
 }
